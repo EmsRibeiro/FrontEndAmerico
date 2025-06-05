@@ -1,0 +1,117 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #b3cde0;
+  color: #070039;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 4rem;
+  text-decoration: underline overline;
+}
+
+p {
+  text-align: center;
+  color: #011f4b;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+form {
+  margin: 20px auto;
+  text-align: center;
+  background-color: #6497b1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+  width: 90%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input[type="submit"],
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* CLASS */
+.botaoBonito {
+  box-shadow: inset 0px 1px 0px 0px #dcecfb;
+  background: linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+  background-color: #bddbfa;
+  border-radius: 6px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #060f3d;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 13px 35px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+.botaoBonito:hover {
+  background: linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+  background-color: #80b5ea;
+}
+.botaoBonito:active {
+  position: relative;
+  top: 1px;
+}

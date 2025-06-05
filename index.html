@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mercadinhos Americo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="favicon.jpg" />
+  </head>
+  <body>
+    <h1>Americo's Store</h1>
+    <p>Seu Style evoluindo para Supa desde a Base!</p>
+
+    <form id="add-product-form">
+      <h2>Adicionar Produto ao estoque</h2>
+      <label for="name">Qual o Produto? 🛒</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="É pra por aqui"
+        required
+      />
+
+      <label for="price">E o valor? 💲</label>
+      <input
+        type="number"
+        id="price"
+        name="price"
+        placeholder="Não usa vírgula pufavô"
+        required
+        step="0.01"
+      />
+
+      <button class="botaoBonito" type="submit">Adicionar ao Sistema📲</button>
+    </form>
+
+    <ul id="products"></ul>
+
+    <script src="app.js"></script>
+    <script>
+      // Call fetchProducts() when the page loads
+      window.addEventListener("load", fetchProducts);
+    </script>
+  </body>
+</html>
